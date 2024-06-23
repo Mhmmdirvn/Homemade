@@ -4,6 +4,7 @@
   --primary-color: #eaeaec;
   --secondary-color: #fff;
   --black: #131111;
+  --container: 720px;
 }
 
 * {
@@ -52,7 +53,7 @@ body {
 }
 
 .header .container {
-  background-color: #888585;
+  background-color: #b6b5b5;
   width: 1170px;
   border-radius: 10px;
   display: grid;
@@ -78,10 +79,91 @@ body {
   padding: 50px 0px;
 }
 
-.header .header-content button {
-  padding: 15px 50px;
+.header .header-content .button {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 40px;
   font-size: 15px;
   font-weight: bold;
-  background-color: #bdb8b8;
+  background-color: #ece6e6;
   border-radius: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.header .header-content i {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.crafting {
+  background-color: #f4f4f4;
+}
+
+.crafting .container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 15px;
+}
+
+.crafting .container .describe {
+  margin: 50px 100px;
+}
+
+.crafting .container .describe .title {
+  font-weight: lighter;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 3px;
+}
+
+.crafting .container .describe .text {
+  font-weight: lighter;
+}
+
+.crafting .container .content-image {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0px 50px 100px;
+}
+
+.crafting .container .content-image .card {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.crafting .container .content-image .card span {
+  font-weight: normal;
+  margin-left: 3px;
+}
+.crafting .container .content-image img {
+  width: 300px;
+  border-radius: 3px;
+  margin-bottom: 2px;
+}
+
+.crafting .container .btn-view-more {
+  display: flex;
+  justify-content: center;
+}
+
+.crafting .container .btn-view-more .button {
+  display: inline-flex;
+  align-items: center;
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 40px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #ece6e6;
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.crafting .container .btn-view-more .button i {
+  font-size: 20px;
+  margin-left: 5px;
 }
