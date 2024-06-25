@@ -86,7 +86,7 @@ body {
   font-size: 15px;
   font-weight: bold;
   background-color: #ece6e6;
-  border-radius: 15px;
+  border-radius: 10px;
   text-decoration: none;
   color: black;
 }
@@ -98,6 +98,7 @@ body {
 
 .crafting {
   background-color: #f4f4f4;
+  padding: 0px 0px 50px 0px;
 }
 
 .crafting .container {
@@ -109,6 +110,8 @@ body {
 }
 
 .crafting .container .describe {
+  display: grid;
+  grid-template-columns: 400px;
   margin: 50px 100px;
 }
 
@@ -157,8 +160,8 @@ body {
   padding: 15px 40px;
   font-size: 15px;
   font-weight: bold;
-  background-color: #ece6e6;
-  border-radius: 15px;
+  background-color: #b6b5b5;
+  border-radius: 10px;
   text-decoration: none;
   color: black;
 }
@@ -166,4 +169,57 @@ body {
 .crafting .container .btn-view-more .button i {
   font-size: 20px;
   margin-left: 5px;
+}
+
+.customer .container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 15px;
+}
+
+.customer .container .describe {
+  display: grid;
+  grid-template-columns: 400px;
+  margin: 50px 100px;
+}
+
+.customer .container .describe .title {
+  font-weight: lighter;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 3px;
+}
+
+.customer .container .describe .text {
+  font-weight: lighter;
+}
+
+.customer .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px 0px 50px 100px;
+  gap: 40px;
+}
+
+.customer .container .row .card {
+  text-align: center;
+  border: 1px solid black;
+  width: 300px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.customer .container .row .card .card-image {
+  margin: 12px 0px;
+}
+
+.customer .container .row .card .card-image img{
+    border-radius: 50%;
+}
+
+.customer .container .row .card .card-text {
+  font-weight: lighter;
+  margin: 10px 0px;
 }
